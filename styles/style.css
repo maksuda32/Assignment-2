@@ -143,3 +143,36 @@
     position: absolute;
     top: 550px;
   }
+  @media  screen and (max-width:576px) {
+    .nav-links{
+        display: none;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .brand {
+        margin-left: 10px;
+    }
+    .banner-title {
+        margin-left: 10px;
+    }
+    .banner-des {
+        margin-left: 10px;
+    } 
+    #position {
+        position: absolute;
+     
+        top: 1080px;
+        right:10px;
+       }
+    .button-2 {
+        position: absolute;
+        top: 1350px;
+      }
+      .btn-primary {
+        padding: 15px 30px;
+        margin-right: 10px;
+        margin-left: 2px;
+      }
+
+  }
