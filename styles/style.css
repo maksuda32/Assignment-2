@@ -126,7 +126,7 @@
    position: absolute;
 
    top: 280px;
-   right:290px;
+   right:120px;
   }
   #btn-2 {
     padding: 20px 40px;
@@ -147,6 +147,19 @@
     position: absolute;
     top: 550px;
   }
+
+  /* main related styles*/
+.total-project {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: ;
+}
+
+
+
+
+
+
   @media  screen and (max-width:576px) {
     .nav-links{
         display: none;
