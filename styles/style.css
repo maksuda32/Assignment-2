@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+AU+QLD:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+  .playwrite-au-qld-font{
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+ * {
+    margin: 0px;
+    padding: 0px;
+ } 
+
+
+  /*shared style*/
+  .display-flex {
+    display: flex;
+  }
+  .color-primary {
+    color: white;
+  }
+  .color-sec {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .navbar, .banner-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /*header related style */
+  .header {
+   background-color: #303030;
+   overflow: hidden;
+  }
+
+  /*nav related style*/
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .brand{
+    font-size: 2.1rem;
+    font-weight: bolder;
+    color: #E6533C;
+  }
+  .color {
+    border: 1px solid #E6533C;
+    background-color: #E6533C;
+    border-radius: 15px;
+  }
+  .nav-item {
+    list-style: none;
+    margin: 5px 20px;
+  }
+  .nav-links {
+    border: 1px solid rgba(242, 239, 239, 0.071);
+    border-radius: 15px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+
+  /*Banner related style*/
+  .banner {
+    margin-top: 30px;
+  }
+  .banner-container {
+    justify-content: space-between;
+  }
+  .banner-title {
+    font-size: 4.8rem;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  } 
+  .banner-des {
+    margin-bottom: 30px;
+  }
+  .btn-primary {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+  #common-btn {
+    background-color: #E6533C;
+    border: none;
+  }
+  .img {
+    position: relative;
+  }
+  .over-img {
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-weight: bold;
+  }
+  .size {
+    font-size: 2rem;
+  }
+  #position {
+   position: absolute;
+
+   top: 280px;
+   right:180px;
+  }
+  #btn-2 {
+    padding: 20px 40px;
+    position: relative;
+  }
+  .bitto {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #E6533C;
+
+    position: absolute;
+
+    margin-top: 10px;
+    right: 117px;
+  }
+  .button-2 {
+    position: absolute;
+    top: 550px;
+  }
